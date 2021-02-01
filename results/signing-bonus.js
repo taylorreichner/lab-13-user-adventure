@@ -1,6 +1,4 @@
-
-
-function scoreSigningBonus(signingBonus) {
+export function scoreSigningBonus(signingBonus) {
     if (signingBonus > 0) {
         return 'poor';
     }
@@ -11,4 +9,3 @@ function scoreSigningBonus(signingBonus) {
     return 'rich';
 }
 
-export default scoreSigningBonus;
